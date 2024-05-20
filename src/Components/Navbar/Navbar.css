@@ -2,12 +2,19 @@
 
 .navbar{
   background-color: #22b3c1;
+  /* position: fixed; */
+  /* z-index: 10; */
+  /* width: 100%;
+  top: 0;
+  right: 0;
+  left: 0; */
 }
 .navbar__container{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  
 }
 .navbar__img{
     width: 250px;

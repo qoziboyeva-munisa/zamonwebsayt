@@ -3,7 +3,7 @@ import "./Location.css"
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import swap1 from "../../assets/img/swap1.png"
 import swap15 from "../../assets/img/swap15.jpg"
 import swap01 from "../../assets/img/swap01.avif"
@@ -22,6 +22,10 @@ function Location(){
                  <h1 className="location__title">Best Locations</h1>
                  <p className="location__text">Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.</p>
                  <Swiper
+                  autoplay={{
+                    delay: 1500,
+                    disableOnInteraction: false,
+                  }}
                  loop={true}
         slidesPerView={1}
         spaceBetween={5}
@@ -42,7 +46,7 @@ function Location(){
             spaceBetween: 40,
           },
         }}
-        modules={[Pagination]}
+        modules={[Autoplay,Pagination]}
         className="mySwiper"
       >
         <SwiperSlide className="swipper1">

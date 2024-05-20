@@ -2,7 +2,7 @@
 import './Main.css'
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react'; 
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import cart1 from "../../assets/img/cart1.jpg"
 import cart2 from "../../assets/img/cart2.jpg"
 import cart3 from "../../assets/img/cart3.jpg"
@@ -53,6 +53,10 @@ function Main() {
             <p className="main__text">{t("main.discover")}</p>
           </div>
         <Swiper
+         autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
         loop={true}
         onSwiper={setSwiperRef}
         slidesPerView={3.2}
@@ -60,9 +64,10 @@ function Main() {
         spaceBetween={30}
         pagination={{
           type: 'fraction',
+         
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[ Autoplay,Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

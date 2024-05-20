@@ -10,7 +10,7 @@ import cart17 from "../../assets/img/cart17.jpg"
 
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react'; 
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { useTranslation } from "react-i18next"
@@ -54,6 +54,10 @@ function Support(){
 
             </div>
             <Swiper
+             autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
         loop={true}
         onSwiper={setSwiperRef}
         slidesPerView={3.2}
@@ -63,7 +67,7 @@ function Support(){
           type: 'fraction',
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay,Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

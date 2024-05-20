@@ -13,7 +13,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { useTranslation } from 'react-i18next'
 
 
@@ -25,18 +25,23 @@ function Header() {
     <>
      <div className="header">
      <Swiper
+     autoplay={{
+        delay: 3500,
+        disableOnInteraction: false,
+      }}
          loop={true}
          slidesPerView={1}
         spaceBetween={30}
         dir="rtl"
-     
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Navigation, Pagination]}
+        modules={[ Autoplay,Navigation, Pagination]}
         className="mySwiper"
       >
+     
+
         
         <SwiperSlide>
             <img src={zamon1} alt="" />
