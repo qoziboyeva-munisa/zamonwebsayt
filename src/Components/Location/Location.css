@@ -1,0 +1,25 @@
+
+
+.location__title{
+    color: #2A2A2A;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.location__text{
+    color: #AFAFAF;
+    font-size: 14px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.swipper1{
+    height: 400px;
+    border-radius: 20px;
+   
+}
+.swipper__img{
+    border-radius: 20px;
+}

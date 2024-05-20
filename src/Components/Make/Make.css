@@ -1,0 +1,47 @@
+
+
+.make{
+    background: url(../../assets/img/make.png);
+    background-size: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+  
+}
+.make__container{
+    margin-top: 30px; 
+    position: relative; 
+}
+.make__list{
+    position: absolute;
+   top: 280px;
+    right: 100px;
+    margin: 0 auto;
+    width: 800px;
+   display: flex;
+   justify-content: space-between;
+}
+.make__item{
+    list-style: none;
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 0px;
+    height: 200px;
+}
+.make__title{
+    padding: 20px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.make__img{
+    width: 60px;
+    display: flex;
+    margin: 0 auto;
+}
+.make__link{
+    text-decoration: none;
+    color: #22B3C1;
+    display: flex;
+    justify-content: center;
+}

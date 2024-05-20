@@ -1,0 +1,116 @@
+
+  
+  .swiper {
+    width: 100%;
+    height: 500px;
+   
+    /* margin: 20px auto; */
+  }
+  .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    /* padding: 4px 10px; */
+    border-radius: 4px;
+    /* margin: 0 10px; */
+    font-size: 13px;
+  }
+  .main__title{
+    padding-top: 60px;
+      font-size: 26px;
+      color: #2A2A2A;
+      text-align: center;
+  }
+  .main__text{
+    padding-top: 20px;
+    color: #AFAFAF;
+    width: 530px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+
+  }
+  .main__list{
+    width: 320px;
+    border-radius: 20px;
+    height: 450px;
+    position: relative;
+  }
+  .main__item{
+    list-style: none;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    
+  }
+  .main__img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .main__item__name{
+    list-style: none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px 0px;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 250px;
+    /* height: 350px; */
+    background-color: #fff;
+    padding: 25px;
+  }
+  .main__box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+  }
+  .main__title__name{
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  .main__title__name{
+    columns: #2A2A2A;
+  }
+  .main__text__name{
+    color: #AFAFAF;
+    padding: 10px 0px;
+    font-family: sans-serif;
+  }
+  .main__boxtou__title{
+    color: #22B3C1;
+    font-size: 18px;
+  }
+  .main__item__title{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 15px ;
+    color: #2A2A2A;
+    padding-bottom: 10px;
+  }
+  .main__item__text{
+    font-size: 16px;
+    color: #AFAFAF;
+    padding: 5px 0px;
+  }
+  .main__btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color:#22B3C1 ;
+    color: #fff;
+    margin-top: 30px;
+  }
+  
+
+  
