@@ -57,7 +57,9 @@ function Header() {
                 <div className="header__boxtop">
                <p className="header__text">{t("header.take")}</p>
                <h1 className="header__title">{t("header.istanbul")}</h1>
+               <a href="#make">
                <button className='header__btn'>{t("header.go")}</button>
+               </a>
                </div>
             <ul className="header__list">
                 <li className="header__item">

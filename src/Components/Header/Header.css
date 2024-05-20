@@ -39,6 +39,9 @@
     text-align: center;
 
   }
+  .header__itembox{
+    width: 120px;
+  }
   .header__title{
     color: #fff;
     text-align: center;
@@ -91,4 +94,6 @@
     font-size: 18px;
     width: 150px;
   }
-  
+  a{
+    text-decoration: none;
+  }

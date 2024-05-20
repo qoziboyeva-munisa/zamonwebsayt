@@ -35,10 +35,10 @@ function Navbar() {
             </ul>
           
             <div className="navbar__box">
-              <a href="#" className="navbar__linkicon">
+              <a href="https://t.me/zamonbiznestour" className="navbar__linkicon">
               <i className="fa-brands fa-telegram"></i>
               </a>
-              <a href="#" className="navbar__linkicon">
+              <a href="https://www.instagram.com/zamontour" className="navbar__linkicon">
               <i className="fa-brands fa-instagram"></i>
               </a>
               <select className="select" id="lng" onChange={handleChange} value={laungages}>
