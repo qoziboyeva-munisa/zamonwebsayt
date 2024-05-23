@@ -64,8 +64,42 @@ function Main() {
         spaceBetween={30}
         pagination={{
           type: 'fraction',
-         
         }}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          420: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          520: {
+            slidesPerView: 1.7,
+            spaceBetween: 20,
+          },
+          620: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          720: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          820: {
+            slidesPerView: 2.5,
+            spaceBetween: 20,
+          },
+          920: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1020: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        }}
+       
         navigation={true}
         modules={[ Autoplay,Pagination, Navigation]}
         className="mySwiper"
@@ -130,7 +164,7 @@ function Main() {
                 <li className="main__item__name">
                <div className="main__box">
                <div className="main__boxone">
-                      <h2 className="main__title__name">{t("main.antaliya")}</h2>
+                      <h2 className="main__title__name">{t("main.antalya")}</h2>
                       <p className="main__text__name">{t("main.500")}</p>
                     </div>
                     <div className="boxtou">

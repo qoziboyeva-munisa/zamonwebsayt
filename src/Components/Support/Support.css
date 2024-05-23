@@ -1,5 +1,7 @@
 
-
+.support__container{
+    width: 1100px;
+}
 .support__title{
     font-size: 30px;
     color: #2A2A2A;
@@ -67,4 +69,133 @@
     border: 0;
     border-radius: 20px;
     margin-top: 30px;
+    color: #fff;
 }
+.support__btn:hover{
+    color: #22B3C1;
+    background-color: #fff;
+    border:  1px solid #22B3C1;
+ }
+
+
+ @media(max-width:1100px){
+    .container{
+        width: 1000px;
+    }
+  }
+  @media(max-width:1020px){
+    .container{
+        width: 900px;
+    }
+   .support__container{
+    max-width: 900px;
+   }
+   .support__list{
+    width: 290px;
+   }
+   .support__item__name{
+    width: 260px;
+   }
+  
+  }
+  @media(max-width:920px){
+    .container{
+        width: 800px;
+    }
+   .support__container{
+    max-width: 800px;
+   }
+   .support__list{
+    width: 290px;
+   }
+   .support__item__name{
+    width: 260px;
+   }
+  
+  }
+  @media(max-width:820px){
+    .container{
+        width: 700px;
+    }
+   .support__container{
+    max-width: 700px;
+   }
+   .support__list{
+    width: 350px;
+   }
+   .support__item__name{
+    width: 260px;
+   }
+  
+  }
+  @media(max-width:720px){
+    .container{
+        width: 600px;
+    }
+   .support__container{
+    max-width: 600px;
+   }
+   .support__list{
+    width: 300px;
+   }
+   .support__item__name{
+    width: 260px;
+   }
+  
+  }
+  @media(max-width:620px){
+    .container{
+        width: 500px;
+    }
+   .support__container{
+    max-width: 500px;
+   }
+   .support__text{
+    width: 400px;
+   }
+   .support__list{
+    width: 300px;
+   }
+   .support__item__name{
+    width: 260px;
+   }
+  
+  }
+  @media(max-width:520px){
+    .container{
+        width: 400px;
+    }
+   .support__container{
+    max-width: 400px;
+   }
+   .support__list{
+    width: 300px;
+    margin: 0 auto;
+   }
+   .support__item__name{
+    width: 260px;
+   }
+   .support__text{
+    width: 300px;
+   }
+  
+  }
+  @media(max-width:420px){
+    .container{
+        width: 300px;
+    }
+   .support__container{
+    max-width: 300px;
+   }
+   .support__list{
+    width: 280px;
+    margin: 0 auto;
+   }
+   .support__item__name{
+    width: 240px;
+   }
+   .support__text{
+    width: 250px;
+   }
+  
+  }

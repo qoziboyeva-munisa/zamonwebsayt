@@ -33,18 +33,40 @@ function Location(){
           clickable: true,
         }}
         breakpoints={{
-          640: {
-            slidesPerView: 2,
+          1020: {
+            slidesPerView: 5,
             spaceBetween: 20,
           },
-          768: {
-            slidesPerView: 3,
+          920: {
+            slidesPerView: 4,
             spaceBetween: 30,
           },
-          1024: {
-            slidesPerView: 5,
+          820: {
+            slidesPerView: 4,
             spaceBetween: 40,
           },
+          720: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          620: {
+            slidesPerView: 3.5,
+            spaceBetween: 40,
+          },
+          520: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          420: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+
+
         }}
         modules={[Autoplay,Pagination]}
         className="mySwiper"

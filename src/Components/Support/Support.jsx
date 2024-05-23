@@ -66,6 +66,40 @@ function Support(){
         pagination={{
           type: 'fraction',
         }}
+        breakpoints={{
+          1020: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          920: {
+            slidesPerView: 2.6,
+            spaceBetween: 30,
+          },
+          820: {
+            slidesPerView: 2.6,
+            spaceBetween: 30,
+          },
+         720: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          620: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          520: {
+            slidesPerView: 1.8,
+            spaceBetween: 30,
+          },
+          420: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+        }}
         navigation={true}
         modules={[Autoplay,Pagination, Navigation]}
         className="mySwiper"
