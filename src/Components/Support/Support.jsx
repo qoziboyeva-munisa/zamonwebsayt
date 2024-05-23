@@ -99,6 +99,10 @@ function Support(){
             slidesPerView: 1,
             spaceBetween: 30,
           },
+          220: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
         }}
         navigation={true}
         modules={[Autoplay,Pagination, Navigation]}

@@ -2,6 +2,7 @@
 import './Navbar.css'
 import zamon from "../../assets/img/zamon.svg"
 import { useTranslation } from 'react-i18next'
+import TemporaryDrawer from '../../Modal/Modal';
 
 
 function Navbar() {
@@ -34,6 +35,7 @@ function Navbar() {
               </li>
             </ul>
           
+          <TemporaryDrawer/>
             <div className="navbar__box">
               <a href="https://t.me/zamonbiznestour" className="navbar__linkicon">
               <i className="fa-brands fa-telegram"></i>

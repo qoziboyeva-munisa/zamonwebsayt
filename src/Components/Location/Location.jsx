@@ -65,6 +65,10 @@ function Location(){
             slidesPerView: 2,
             spaceBetween: 40,
           },
+          220: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
 
 
         }}

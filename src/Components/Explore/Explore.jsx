@@ -14,7 +14,7 @@ function Explore(){
 
     return(
         <>
-        <div className="explore">
+        <div className="explore" id="explore">
             <div className="container explore__container">
                <hr />
                <h1 className="explore__title">{t("explore.explore")}</h1>

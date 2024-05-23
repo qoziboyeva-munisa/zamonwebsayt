@@ -1,0 +1,34 @@
+
+
+.modal__btn{
+    width: 30px;
+}
+.modal__list{
+    height: 100%;
+    gap: 30px;
+    padding: 30px;
+}
+.modal__item{
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #bbb;
+}
+.modal__link{
+    font-size: 24px;
+}
+.modal__box{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.modal__select{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 6px 0px;
+}
+.modal__option{
+    width: 50px;
+    font-size: 12px;
+}

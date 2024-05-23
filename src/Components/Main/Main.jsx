@@ -66,6 +66,10 @@ function Main() {
           type: 'fraction',
         }}
         breakpoints={{
+          220: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
           320: {
             slidesPerView: 1,
             spaceBetween: 20,
