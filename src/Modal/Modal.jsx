@@ -14,12 +14,9 @@ export default function TemporaryDrawer() {
     }
   const [open, setOpen] = React.useState(false);
   const {t,i18n} = useTranslation()
-  const toggleDrawer =()=>()=> {
-    setOpen(true);
+  const toggleDrawer =(newOpen)=>()=> {
+    setOpen(newOpen);
   };
-  const onCloseD = () =>{
-    setOpen(false)
-  }
 
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
@@ -62,7 +59,7 @@ export default function TemporaryDrawer() {
       <Button className='modal__btn' onClick={toggleDrawer(true)}>
         <i class="fa-solid fa-bars"></i>
         </Button>
-      <Drawer open={open} onClose={onCloseD}>
+      <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>
     </div>
