@@ -113,22 +113,21 @@ carefully selected for you.</p>
                  <div className="explore__wrapper">
                     <div className="explore__boxtext">
                         <div className="explore__intinue">
-                        <h2 className="explore__title__name">Sharm El-Sheikh</h2>
-                        <p className="explore__text__name">Egypt</p>
+                        <h2 className="explore__title__name">{t("explore.sheik")}</h2>
+                        <p className="explore__text__name">{t("explore.egypt")}</p>
                         </div>
                         <a href="#make">
                     <button className="explore__btn">{t("explore.more")}</button>
                     </a>
                     </div>
-                    <p className="explore__text">
-                    Sharm El Sheikh is the center of tourism action in Sinai Peninsula and it has the world top diving sites. Specially the underwater wonders of Ras Mohammed national park that took Sharm city to whole different level. The city has diving and shipwreck sites that attract both advanced and recreational divers from around the world to discover the un parallel marine life deep down the red sea.</p>
+                    <p className="explore__text">{t("explore.sharm")}</p>
                     <hr />
                     <div className="explore__ending">
-                         <p className="explore__ending__text">67.41 Mil People</p>
+                         <p className="explore__ending__text">{t("explore.people")}</p>
                          <p className="explore__ending__text">551.500 km2</p>
                          <p className="explore__ending__text">$425.600</p>
                     </div>
-                    <a href="#" className="explore__link">Need Directions ? </a>
+                    <a href="#" className="explore__link">{t("explore.need")} </a>
                  </div>
           </div>
           <hr />
@@ -144,8 +143,7 @@ carefully selected for you.</p>
                     <button className="explore__btn">{t("explore.more")}</button>
                     </a>
                     </div>
-                    <p className="explore__text">
-                    Istanbul is the most populous city in Turkey and its cultural, economic and historic center. It is located in north-western part of Turkey, divided into European and Asian side by Bosphorus, which connects the Sea of Marmara and Black Sea. It is the only city in the world that sits on two continents.</p>
+                    <p className="explore__text">{t("explore.populous")}</p>
                     <hr />
                     <div className="explore__ending">
                          <p className="explore__ending__text">{t("explore.people")}</p>

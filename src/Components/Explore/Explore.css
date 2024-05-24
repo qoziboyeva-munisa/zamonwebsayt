@@ -26,7 +26,7 @@
     color: #2A2A2A;
 }
 .explore__title__name{
-    font-size: 20px;
+    font-size: 28px;
 }
 .explore__text{
     font-size: 18px;
@@ -259,17 +259,19 @@
     max-width: 400px;
    }
    .explore__title{
-    width: 350px;
+    width: 400px;
+    text-align: center;
    }
    .explore__title__name{
-    width: 300px;
+    width: 350px;
+    text-align: center;
    }
    .explore__text{
      max-width: 350px;
    }
    .explore__btn{
     margin: 0 auto;
-    width: 320px;
+    width: 350px;
    }
    .explore__wrapper{
     width: 400px;
@@ -319,14 +321,15 @@
     width: 250px;
    }
    .explore__title__name{
-    width: 200px;
+    width: 250px;
+    text-align: center;
    }
    .explore__text{
      max-width: 250px;
    }
    .explore__btn{
-    margin: 0 ;
-    width: 220px;
+    margin: 0 auto;
+    width: 250px;
    }
    .explore__wrapper{
     width: 300px;

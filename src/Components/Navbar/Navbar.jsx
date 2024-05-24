@@ -3,6 +3,8 @@ import './Navbar.css'
 import zamon from "../../assets/img/zamon.svg"
 import { useTranslation } from 'react-i18next'
 import TemporaryDrawer from '../../Modal/Modal';
+import { colors } from '@mui/material';
+import { blue } from '@mui/material/colors';
 
 
 function Navbar() {
@@ -17,7 +19,7 @@ function Navbar() {
 
   return (
     <>
-     <div className="navbar">
+     <div className="navbar" id='navbar'>
         <div className="container navbar__container">
             <img className='navbar__img' src={zamon} alt="" />
             <ul className="navbar__list">
@@ -37,17 +39,18 @@ function Navbar() {
           
           <TemporaryDrawer/>
             <div className="navbar__box">
-              <a href="https://t.me/zamonbiznestour" className="navbar__linkicon">
-              <i className="fa-brands fa-telegram"></i>
-              </a>
-              <a href="https://www.instagram.com/zamontour" className="navbar__linkicon">
-              <i className="fa-brands fa-instagram"></i>
-              </a>
-              <select className="select" id="lng" onChange={handleChange} value={laungages}>
+            <select className="select" id="lng" onChange={handleChange} value={laungages}>
       <option value="uz">Uz</option>
       <option value="en">En</option>
       <option value="ru">Ru</option>
      </select>
+              <a href="https://t.me/zamonbiznestour" className="navbar__linkicon">
+              <i class="fa-brands fa-telegram" style={{color: "white"}}></i>
+              </a>
+              <a href="https://www.instagram.com/zamontour" className="navbar__linkicon">
+              <i className="fa-brands fa-instagram" style={{color:"white"}}></i>
+              </a>
+              
             </div>
            
         </div>

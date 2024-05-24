@@ -22,14 +22,14 @@
     object-fit: cover;
   }
   .header__container{
-    position: relative;
+    height: 400px;
      
   }
   .header__box{
     position: absolute;
     right: 0;
     bottom: 60px;
-    right: 200px;
+    right: 100px;
     z-index: 1;
   }
   .header__text{
@@ -66,7 +66,7 @@
   .header__list{
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 900px;
     background-color: #fff;
     padding: 20px;
     border-radius: 50px;
@@ -78,13 +78,14 @@
    align-items: center;
    width: 200px;
   }
-  .header__img{
-    width: 40px;
-  }
   .header__item__text{
     color: #AFAFAF;
     font-size: 16px;
     padding: 5px 0px;
+  }
+  .header__img{
+    width: 40px;
+    height: 40px;
   }
   .header__item__title{
     color: #22B3C1;
@@ -131,7 +132,10 @@
         width: 700px;
     }
      .header__box{
-      right: 60px;
+      right: 20px;
+     }
+     .header__list{
+      width: 700px;
      }
   }
   @media(max-width:720px){
@@ -139,13 +143,13 @@
         width: 600px;
     }
      .header__box{
-      right: 50px;
+      right: 30px;
      }
      .header__list{
-      width: 500px;
+      width: 600px;
      }
      .header__item{
-      width: 160px;
+      width: 200px;
      }
      .header__img{
       width: 30px;
@@ -163,16 +167,25 @@
     }
      .header__box{
       bottom: 20px;
-      right: 30px;
+      right: 60px;
+     }
+     .header__boxtop{
+      padding-bottom: 50px;
      }
      .header__list{
       width: 400px;
        display: flex;
        flex-wrap: wrap;
        gap: 20px;
+       height: 200px;
+     }
+     .header___img{
+      width: 20px;
+      height: 20px;
      }
      .header__item{
-      width: 160px;
+      width: 250px;
+      margin: 0 auto;
      }
      .header__img{
       width: 30px;
@@ -202,7 +215,7 @@
        margin: 0 auto;
      }
      .header__item{
-      width: 160px;
+      width: 200px;
      }
      .header__img{
       width: 30px;
@@ -221,7 +234,7 @@
      .header__box{
       height: 200px;
       bottom: 280px;
-      right: 0px;
+      right: 40px;
      }
      .header__text{
       width: 250px;
@@ -231,12 +244,12 @@
       padding: 20px;
      }
      .header__list{
-      width: 200px;
+      width: 250px;
        gap: 20px;
        margin: 0 auto;
      }
      .header__item{
-      width: 160px;
+      width: 200px;
      }
      .header__img{
       width: 30px;

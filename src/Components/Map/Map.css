@@ -1,7 +1,7 @@
 
 .map__container{
     width: 1080px;
-    padding-top: 150px;
+    padding-top: 250px;
     padding-bottom: 50px;
     
 }
@@ -66,7 +66,7 @@ iframe{
         width: 500px;
     }
     .map__container{
-        margin-top: 100px;
+        margin-top: 300px;
         max-width: 500px;
         padding-top: 80px;
         padding-bottom: 50px;
@@ -79,7 +79,7 @@ iframe{
         width: 400px;
     }
     .map__container{
-        margin-top: 0px;
+        margin-top: 300px;
         max-width: 400px;
     }
   
@@ -89,7 +89,7 @@ iframe{
         width: 300px;
     }
     .map__container{
-        margin-top: 100px;
+        margin-top: 300px;
         max-width: 300px;
     }
   

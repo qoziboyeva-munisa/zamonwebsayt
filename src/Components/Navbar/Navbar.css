@@ -9,6 +9,7 @@
   right: 0;
   left: 0; */
 }
+
 .navbar__container{
   display: flex;
   justify-content: space-between;
@@ -31,6 +32,7 @@
 .navbar__link{
     text-decoration: none;
     color:#fff;
+   
     font-size: 18px;
 }
 .navbar__link:hover{
@@ -46,7 +48,9 @@
 .navbar__linkicon{
     border-radius: 6px;
     text-decoration: none;
-    background-color:#22b3c1 ; 
+    background-color:#22b3c1 ;
+    border: 1px solid #fff;
+    padding: 5px 6px; 
 }
 .navbar__btn{
     background-color: #22b3c1;
@@ -58,6 +62,12 @@
     background-color: #22b3c1;
     border: 0;
     color: #fff;
+    /* padding: 6px;
+    border-radius: 5px;
+    border:  1px solid #fff; */
+}
+.modali{
+    display: none;
 }
 
 
@@ -114,6 +124,9 @@
     }
     .navbar__container{
         max-width: 600px;
+    }
+    .modali{
+        display: block;
     }
     .navbar__img{
         width: 100px;

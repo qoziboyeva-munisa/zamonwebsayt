@@ -11,7 +11,10 @@
         "go":"Go There",
         "population":"Population",
         "territory":"Territory",
-        "avg":"AVG Price"
+        "avg":"AVG Price",
+        "antalya":"Antalya",
+        "dubai":"Dubai",
+        "sharm":"Sharm El-Sheikh"
     },
     "main":{
         "best":"Best Weekly Offers In Each City",
@@ -70,10 +73,25 @@
         "turkey":"Turkey",
         "fastest":"ntalya is the fastest-growing city in Turkey, and tourists from around the world are discovering its fabulous mix of great beaches and traditional Turkish culture. Kids will love the Beach Park, which features Aqua Land (a waterslide-fanatic's dream) and Dolphin Land (home to dolphins, sea lions and white whales). Make sure to explore the old town center and to see Hadrian's Gate. ",
         "istanbul":"Istanbul" ,
-        "most":"   Istanbul is the most populous city in Turkey and its cultural, economic and historic center. It is located in north-western part of Turkey, divided into European and Asian side by Bosphorus, which connects the Sea of Marmara and Black Sea. It is the only city in the world that sits on two continents." 
+        "most":"   Istanbul is the most populous city in Turkey and its cultural, economic and historic center. It is located in north-western part of Turkey, divided into European and Asian side by Bosphorus, which connects the Sea of Marmara and Black Sea. It is the only city in the world that sits on two continents." ,
+        "sharm":" Sharm El Sheikh is the center of tourism action in Sinai Peninsula and it has the world top diving sites. Specially the underwater wonders of Ras Mohammed national park that took Sharm city to whole different level. The city has diving and shipwreck sites that attract both advanced and recreational divers from around the world to discover the un parallel marine life deep down the red sea.",
+        "populous":"Istanbul is the most populous city in Turkey and its cultural, economic and historic center. It is located in north-western part of Turkey, divided into European and Asian side by Bosphorus, which connects the Sea of Marmara and Black Sea. It is the only city in the world that sits on two continents.",
+        "sheik":"Sharm El-Sheikh",
+        "Egypt":"Egypt"
+
+   
+    },
+    "location":{
+        "location":"Best Locations",
+        "discover":"Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences."
     },
     "make":{
-        "make":"Make a Phone Call"
+        "make":"Make a Phone Call",
+        "inst":"Follow us on Instagram",
+        "teleg":"Our telegram page",
+        "book":"Book Prefered Deal Here",
+         "your":"Make Your Reservation",
+         "discover":"Discover More"
     },
     "ending":{
         "make":"Make Your",

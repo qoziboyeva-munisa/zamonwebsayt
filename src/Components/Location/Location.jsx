@@ -12,15 +12,17 @@ import swap10 from "../../assets/img/swap10.jpg"
 import swap14 from "../../assets/img/swap14.jpg"
 import swap12 from "../../assets/img/swap12.jpg"
 import swap13 from "../../assets/img/swap13.jpg"
+import { useTranslation } from "react-i18next";
 
 function Location(){
-
+ 
+  const {t, i18n }= useTranslation();
     return(
         <>
         <div className="location">
             <div className="container location__container">
-                 <h1 className="location__title">Best Locations</h1>
-                 <p className="location__text">Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences.</p>
+                 <h1 className="location__title">{t("location.location")}</h1>
+                 <p className="location__text">{t("location.discover")}</p>
                  <Swiper
                   autoplay={{
                     delay: 1500,

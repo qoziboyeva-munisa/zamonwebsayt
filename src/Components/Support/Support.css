@@ -3,6 +3,7 @@
     width: 1100px;
 }
 .support__title{
+   
     font-size: 30px;
     color: #2A2A2A;
     text-align: center;
@@ -36,9 +37,10 @@
 .support__item__name{
     position: absolute;
     list-style: none;
+    
     width: 280px;
     padding: 25px;
-    height: 380px;
+    height: 400px;
     box-shadow: 0px 1px 10px 0px;
     background-color: #fff;
     border-radius: 20px;
@@ -49,10 +51,12 @@
     font-size: 24px;
     font-family: sans-serif;
     color: #2A2A2A;
+    height: 40px;
 }
 .support__title__name1{
     padding: 20px 0px;
-    font-size: 12px;
+    font-size: 18px;
+    line-height: 20px;
     font-family: sans-serif;
     color: #2A2A2A;
 }
@@ -60,7 +64,7 @@
     font-size: 14px;
     color: #AFAFAF;
     font-family: sans-serif;
-    padding: 10px 0px;
+    padding: 8px 0px;
 }
 .support__btn{
     width: 180px;

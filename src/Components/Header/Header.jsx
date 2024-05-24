@@ -45,19 +45,7 @@ function Header() {
         
         <SwiperSlide>
             <img src={zamon1} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={zamon2} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={zamon13} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={zaom14} alt="" />
-        </SwiperSlide>
-      </Swiper> 
-      
-        <div className="container header__container">
+            <div className="container header__container">
             <div className="header__box">
                 <div className="header__boxtop">
                <p className="header__text">{t("header.take")}</p>
@@ -68,21 +56,27 @@ function Header() {
                </div>
             <ul className="header__list">
                 <li className="header__item">
-                    <img src={Border1} alt="" className="header__img" />
+                    <div className="header__img">
+                    <img src={Border1} alt="" className="header__img1" />
+                    </div>
                     <div className="header__itembox">
                         <p className="header__item__text">{t("header.population")}</p>
                         <h2 className="header__item__title">44.48 M</h2>
                     </div>
                 </li>
                 <li className="header__item">
-                    <img src={Border2} alt="" className="header__img" />
+                  <div className="header__img">
+                  <img src={Border2} alt="" className="header__img1" />
+                  </div>
                     <div className="header__itembox">
                         <p className="header__item__text">T{t("header.territory")}</p>
                         <h2 className="header__item__title">275.400 KM2</h2>
                     </div>
                 </li>
                 <li className="header__item">
-                    <img src={Border3} alt="" className="header__img" />
+                    <div className="header__img">
+                    <img src={Border3} alt="" className="header__img1" />
+                    </div>
                     <div className="header__itembox">
                         <p className="header__item__text">{t("header.avg")}</p>
                         <h2 className="header__item__title">$946.000</h2>
@@ -91,6 +85,139 @@ function Header() {
             </ul>
             </div>
         </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={zamon2} alt="" />
+            <div className="container header__container">
+            <div className="header__box">
+                <div className="header__boxtop">
+               <p className="header__text">{t("header.take")}</p>
+               <h1 className="header__title">{t("header.antalya")}</h1>
+               <a href="#make">
+               <button className='header__btn'>{t("header.go")}</button>
+               </a>
+               </div>
+            <ul className="header__list">
+                <li className="header__item">
+                    <div className="header__img">
+                    <img src={Border1} alt="" className="header__img1" />
+                    </div>
+                    <div className="header__itembox">
+                        <p className="header__item__text">{t("header.population")}</p>
+                        <h2 className="header__item__title">67.56 M</h2>
+                    </div>
+                </li>
+                <li className="header__item">
+                   <div className="header__img">
+                   <img src={Border2} alt="" className="header__img1" />
+                   </div>
+                    <div className="header__itembox">
+                        <p className="header__item__text">T{t("header.territory")}</p>
+                        <h2 className="header__item__title">263.450 KM2</h2>
+                    </div>
+                </li>
+                <li className="header__item">
+                    <div className="header__img">
+                    <img src={Border3} alt="" className="header__img1" />
+                    </div>
+                    <div className="header__itembox">
+                        <p className="header__item__text">{t("header.avg")}</p>
+                        <h2 className="header__item__title">$544.620</h2>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={zamon13} alt="" />
+            <div className="container header__container">
+            <div className="header__box">
+                <div className="header__boxtop">
+               <p className="header__text">{t("header.take")}</p>
+               <h1 className="header__title">{t("header.dubai")}</h1>
+               <a href="#make">
+               <button className='header__btn'>{t("header.go")}</button>
+               </a>
+               </div>
+            <ul className="header__list">
+                <li className="header__item">
+                   <div className="header__img">
+                   <img src={Border1} alt="" className="header__img1" />
+                   </div>
+                    <div className="header__itembox">
+                        <p className="header__item__text">{t("header.population")}</p>
+                        <h2 className="header__item__title">32.34 M</h2>
+                    </div>
+                </li>
+                <li className="header__item">
+                    <div className="header__img">
+                    <img src={Border2} alt="" className="header__img1" />
+                    </div>
+                    <div className="header__itembox">
+                        <p className="header__item__text">T{t("header.territory")}</p>
+                        <h2 className="header__item__title">589.409 KM2</h2>
+                    </div>
+                </li>
+                <li className="header__item">
+                    <div className="header__img">
+                    <img src={Border3} alt="" className="header__img1" />
+                    </div>
+                    <div className="header__itembox">
+                        <p className="header__item__text">{t("header.avg")}</p>
+                        <h2 className="header__item__title">$789.034</h2>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={zaom14} alt="" />
+            <div className="container header__container">
+            <div className="header__box">
+                <div className="header__boxtop">
+               <p className="header__text">{t("header.take")}</p>
+               <h1 className="header__title">{t("header.sharm")}</h1>
+               <a href="#make">
+               <button className='header__btn'>{t("header.go")}</button>
+               </a>
+               </div>
+            <ul className="header__list">
+                <li className="header__item">
+                    <div className="header__img">
+                    <img src={Border1} alt="" className="header__img1" />
+                    </div>
+                    <div className="header__itembox">
+                        <p className="header__item__text">{t("header.population")}</p>
+                        <h2 className="header__item__title">50.18 M</h2>
+                    </div>
+                </li>
+                <li className="header__item">
+                      <div className="header__img">
+                      <img src={Border2} alt="" className="header__img1" />
+                      </div>
+                    <div className="header__itembox">
+                        <p className="header__item__text">T{t("header.territory")}</p>
+                        <h2 className="header__item__title">600.400 KM2</h2>
+                    </div>
+                </li>
+                <li className="header__item">
+                      <div className="header__img">
+                      <img src={Border3} alt="" className="header__img1" />
+                      </div>
+                    <div className="header__itembox">
+                        <p className="header__item__text">{t("header.avg")}</p>
+                        <h2 className="header__item__title">$248.500</h2>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </SwiperSlide>
+      </Swiper> 
+      
+        
      </div>
   
     </>
