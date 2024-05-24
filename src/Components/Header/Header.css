@@ -185,7 +185,8 @@
       left: 0;
      }
      .header__boxtop{
-      padding-bottom: 50px;
+      padding-bottom: 10px;
+      height: 200px;
      }
      .header__list{
       width: 400px;
@@ -247,8 +248,7 @@
         width: 300px;
     }
      .header__box{
-      height: 200px;
-      bottom: 280px;
+      top: -500px;
       right: 0;
       left: 0;
      }
@@ -258,6 +258,7 @@
      }
      .header__boxtop{
       padding: 20px;
+      height: 280px;
      }
      .header__list{
       width: 250px;

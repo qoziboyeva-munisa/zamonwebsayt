@@ -57,7 +57,7 @@ function Explore(){
           <hr />
 
           <h1 className="explore__title">{t("explore.visit")}</h1>
-               <p className="explore__text">{t("explore.affers")}</p>
+               <p className="explore__text">{t("explore.offers")}</p>
 <div className="explore__boxtoo">
                  <img className="explore__img" src={dubai2} alt="" />
                  <div className="explore__wrapper">
@@ -78,7 +78,7 @@ function Explore(){
                          <p className="explore__ending__text">41.290 km2</p>
                          <p className="explore__ending__text">$1.100.200</p>
                     </div>
-                    <a href="#" className="explore__link">{t("explore.need")}</a>
+                    <a href="#make" className="explore__link">{t("explore.need")}</a>
                  </div>
           </div>
           <hr />
@@ -149,7 +149,8 @@ function Explore(){
                          <p className="explore__ending__text">551.500 km2</p>
                          <p className="explore__ending__text">$425.600</p>
                     </div>
-                    <a href="#make" className="explore__link">{t("explore.need")} </a>
+                    <a href="#make
+                    " className="explore__link">{t("explore.need")} </a>
                  </div>
           </div>
             </div>

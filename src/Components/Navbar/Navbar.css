@@ -142,6 +142,9 @@
     .container{
         width: 500px;
     }
+    .select{
+        display: none;
+    }
     .navbar__container{
         max-width: 500px;
     }
@@ -169,6 +172,9 @@
 @media(max-width:420px){
     .container{
         width: 300px;
+    }
+    .navbar__box{
+        display: none;
     }
     .navbar__container{
         max-width: 300px;

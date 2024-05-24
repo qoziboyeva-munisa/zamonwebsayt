@@ -107,6 +107,9 @@
    .explore__boxtext{
     width: 500px;
    }
+   .explore__title__name{
+    font-size: 20px;
+   }
    .explore__text{
     width: 500px;
    }

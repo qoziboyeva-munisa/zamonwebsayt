@@ -37,7 +37,7 @@ function Navbar() {
               </li>
             </ul>
           
-          <TemporaryDrawer/>
+          
             <div className="navbar__box">
             <select className="select" id="lng" onChange={handleChange} value={laungages}>
       <option value="uz">Uz</option>
@@ -52,6 +52,7 @@ function Navbar() {
               </a>
               
             </div>
+            <TemporaryDrawer/>
            
         </div>
      </div>

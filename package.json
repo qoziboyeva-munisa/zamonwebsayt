@@ -15,6 +15,7 @@
     "@mui/icons-material": "^5.15.18",
     "@mui/material": "^5.15.18",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "antd": "^5.17.3",
     "axios": "^1.7.0",
     "i18next": "^23.11.4",
     "i18next-browser-languagedetector": "^8.0.0",

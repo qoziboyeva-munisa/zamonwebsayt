@@ -28,6 +28,7 @@ export default function TemporaryDrawer() {
   const DrawerList = (
     <Box sx={{ width: 250 }}  >
       <div className="modal">
+        <div className=" container modal__container">
       <ul className="modal__list">
            < li className="modal__item" >
                   <a onClick={onCloseD} href="#navbar" className="modal__link">{t("navbar.home")}</a>
@@ -51,7 +52,7 @@ export default function TemporaryDrawer() {
                   <option className="modal__option"  value="ru">Ru</option>
                 </select>
 
-            
+                </div>
                 </div>
     </Box>
   );
@@ -60,7 +61,7 @@ export default function TemporaryDrawer() {
     <div className="modali">
       <Button  onClick={toggleDrawer}>
       
-      <i className="fa-solid fa-bars"></i>
+      <i className="fa-solid fa-bars fa-2xl" style={{color:"white",}}></i>
     
       </Button>
       <Drawer open={open} onClose={onCloseD} >

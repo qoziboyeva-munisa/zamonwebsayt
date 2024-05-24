@@ -93,7 +93,7 @@
     }
     .make__wrapper{
         position: absolute;
-        bottom: -40px;
+        bottom: -80px;
         right: 0;
         left: 0;
     }
@@ -163,7 +163,7 @@
     }
     .make__wrapper{
         position: absolute;
-        bottom: -330px;
+        bottom: -370px;
         right: 0;
         left: 0;
     }
@@ -184,7 +184,7 @@
     }
     .make__wrapper{
         position: absolute;
-        bottom: -530px;
+        bottom: -580px;
         right: 0;
         left: 0;
     }
@@ -207,9 +207,15 @@
         margin: 0 auto;
        
     }
+    .make__text{
+        font-size: 16px;
+    }
+    .make__title__name{
+        font-size: 20px;
+    }
     .make__wrapper{
         position: absolute;
-        bottom: -510px;
+        bottom: -530px;
         right: 0;
         left: 0;
     }
@@ -220,7 +226,8 @@
     }
     .make__link__name{
         width: 150px;
-        font-size: 14px;
+        font-size: 12px;
+        height: 60px;
     }
     .make__img{
         width: 30px;
@@ -246,9 +253,12 @@
     }
     .make__wrapper{
         position: absolute;
-        bottom: -480px;
+        bottom: -500px;
         right: 0;
         left: 0;
+    }
+    .make__link__name{
+        display: none;
     }
     .make__item{
         gap: 10px;

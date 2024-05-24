@@ -85,6 +85,9 @@
    .location__container{
     max-width: 400px;
    }
+   .swipper1{
+    height: 300px;
+   }
    .location__text{
     width: 300px;
    }

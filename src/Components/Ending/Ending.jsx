@@ -3,6 +3,7 @@
 import { useTranslation } from "react-i18next"
 import "./Ending.css"
 import axios from "axios";
+import { message } from "antd";
 function Ending(){
     
 const {t, i18n} = useTranslation();
@@ -24,9 +25,10 @@ const sendMessege = (event) =>{
             "chat_id":chat_id
         }
     }).then((res)=>{
-        alert("muvofaqqiyatli")
+       message.success("yuborildi")
     
        }).catch((error)=>{
+        message.error("xatolik")
         console.log("yuborishda xatolik", error);
        })
 }

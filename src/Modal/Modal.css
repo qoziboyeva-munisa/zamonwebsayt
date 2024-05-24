@@ -32,10 +32,13 @@
     margin: 0 auto;
     font-size: 30px;
     box-shadow: 0px 1px 6px 0px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #22b3c1;
+    color: #fff;
 }
 .modal__option{
-    width: 50px;
-    font-size: 12px;
+    font-size: 16px;
 }
 .modal__x{
     list-style: none;
