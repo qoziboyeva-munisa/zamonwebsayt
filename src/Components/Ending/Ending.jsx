@@ -54,7 +54,7 @@ const sendMessege = (event) =>{
                 </div>
                 <div className="ending__box">
                     <p className="ending__text">{t("ending.date")}</p>
-                    <input type="calendar" className="ending__input" placeholder="mm/dd/yyyy" />
+                    <input type="date" className="ending__input" placeholder="mm/dd/yyyy" />
                 </div>
                 <div className="ending__box">
                     <p className="ending__text">{t("ending.choose")}</p>
