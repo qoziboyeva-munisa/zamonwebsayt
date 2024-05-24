@@ -30,16 +30,16 @@ export default function TemporaryDrawer() {
       <div className="modal">
       <ul className="modal__list">
            < li className="modal__item" >
-                  <a href="#navbar" className="modal__link">{t("navbar.home")}</a>
+                  <a onClick={onCloseD} href="#navbar" className="modal__link">{t("navbar.home")}</a>
                 </li>
                 <li className="modal__item">
-                <a href="#explore" className="modal__link">{t("navbar.about")} </a>
+                <a onClick={onCloseD} href="#explore" className="modal__link">{t("navbar.about")} </a>
                 </li>
                 <li className="modal__item">
-                <a href="#map" className="modal__link">{t("navbar.tours")}</a>
+                <a onClick={onCloseD} href="#map" className="modal__link">{t("navbar.tours")}</a>
                 </li>
                 <li className="modal__item">
-                <a href="#make" className="modal__link">{t("navbar.contact")}</a>
+                <a onClick={onCloseD} href="#make" className="modal__link">{t("navbar.contact")}</a>
                 </li>
                 
                 
