@@ -79,39 +79,43 @@ function Main() {
             spaceBetween: 20,
           },
           520: {
-            slidesPerView: 1.7,
+            slidesPerView: 1.5,
             spaceBetween: 20,
           },
           620: {
-            slidesPerView: 2,
+            slidesPerView: 1.7,
             spaceBetween: 20,
           },
           720: {
-            slidesPerView: 2,
+            slidesPerView: 1.7,
             spaceBetween: 20,
           },
           820: {
-            slidesPerView: 2.5,
+            slidesPerView: 2,
             spaceBetween: 20,
           },
           920: {
-            slidesPerView: 3,
+            slidesPerView: 2.3,
             spaceBetween: 20,
           },
           1020: {
-            slidesPerView: 3,
+            slidesPerView: 2.5,
             spaceBetween: 20,
           },
           1120: {
-            slidesPerView: 3.5,
+            slidesPerView: 2.5,
             spaceBetween: 20,
           },
           1220: {
-            slidesPerView: 3.5,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
           1320: {
-            slidesPerView: 4,
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1420: {
+            slidesPerView: 3.2,
             spaceBetween: 20,
           },
         }}

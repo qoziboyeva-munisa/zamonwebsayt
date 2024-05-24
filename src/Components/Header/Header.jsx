@@ -23,8 +23,9 @@ function Header() {
    const {t, i18n} = useTranslation();
   return (
     <>
-     <div className="header">
+    
      <Swiper
+     style={{height:"700px"}}
      autoplay={{
         delay: 3500,
         disableOnInteraction: false,
@@ -42,9 +43,9 @@ function Header() {
       >
      
 
-        
-        <SwiperSlide>
-            <img src={zamon1} alt="" />
+     <div className="header">
+        <SwiperSlide >
+            <img className='header__swip' src={zamon1} alt="" />
             <div className="container header__container">
             <div className="header__box">
                 <div className="header__boxtop">
@@ -87,7 +88,7 @@ function Header() {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={zamon2} alt="" />
+            <img className='header__swip' src={zamon2} alt="" />
             <div className="container header__container">
             <div className="header__box">
                 <div className="header__boxtop">
@@ -130,7 +131,7 @@ function Header() {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={zamon13} alt="" />
+            <img className='header__swip' src={zamon13} alt="" />
             <div className="container header__container">
             <div className="header__box">
                 <div className="header__boxtop">
@@ -173,7 +174,7 @@ function Header() {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={zaom14} alt="" />
+            <img className='header__swip' src={zaom14} alt="" />
             <div className="container header__container">
             <div className="header__box">
                 <div className="header__boxtop">
@@ -215,10 +216,13 @@ function Header() {
             </div>
         </div>
         </SwiperSlide>
+
+      </div>
+
       </Swiper> 
-      
         
-     </div>
+     
+     
   
     </>
   )

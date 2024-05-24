@@ -30,14 +30,14 @@ function Make() {
                             <i class="fa-brands fa-instagram fa-2xl" style={{color:"#22b3c1" }}></i>
                             </button>
                        
-                            <h1 className="make__title">Bizni instagram orqali kuzating</h1>
+                            <h1 className="make__title">{t("make.inst")}</h1>
                             <a href="#" className="make__link">zamonbiznestour@mail.ru</a>
                         </li>
                         <li className="make__item">
                           <button className="make__icon">
                           <i class="fa-brands fa-telegram fa-2xl" style={{color:"#22b3c1"}}></i>
                           </button>
-                            <h1 className="make__title">Bizning telegram sahifamiz</h1>
+                            <h1 className="make__title">{t("make.teleg")}</h1>
                             <a href="#" className="make__link">+998 99 299 99 96</a>
                         </li>
                     </ul>

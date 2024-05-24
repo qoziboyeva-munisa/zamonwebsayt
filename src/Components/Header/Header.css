@@ -4,17 +4,14 @@
     height: 700px;
   }
   
+  
   .swiper-slide {
     /* text-align: center; */
     font-size: 18px;
     background: #fff;
-  
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .header{
   }
   .swiper-slide img {
     display: block;
@@ -35,7 +32,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: -420px;
+    top: -600px;
     right: 0;
     
     z-index: 1;
@@ -43,7 +40,7 @@
   }
   .header__text{
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 
   }
@@ -53,17 +50,18 @@
   .header__title{
     color: #fff;
     text-align: center;
-    font-size: 36px;
-    padding: 20px 0px;
+    font-size: 60px;
+    padding: 50px 0px;
 }
 .header__btn{
     background-color:  #22B3C1;
     border: 0;
-    padding:  20px;
+  width: 200px;
+    height: 50px;
+    text-align: center;
     border-radius: 20px;
     color: #fff;
-    display: flex;
-    margin: 0 auto;
+    font-size: 20px
 }
 .header__btn:hover{
    color: #22B3C1;
@@ -179,13 +177,18 @@
     .container{
         width: 500px;
     }
+    .header__title{
+      font-size: 38px;
+    }
+    .header__text{
+      font-size: 24px;
+    }
      .header__box{
-      bottom: 20px;
       right: 0;
       left: 0;
      }
      .header__boxtop{
-      padding-bottom: 10px;
+      margin-bottom: 100px;
       height: 200px;
      }
      .header__list{
@@ -222,9 +225,6 @@
       right: 0;
       left: 0;
      }
-     .header__boxtop{
-      padding: 20px;
-     }
      .header__list{
       width: 300px;
        gap: 20px;
@@ -248,16 +248,16 @@
         width: 300px;
     }
      .header__box{
-      top: -500px;
+      top: -620px;
       right: 0;
       left: 0;
      }
      .header__text{
       width: 250px;
       line-height: 30px;
+      margin: 0 auto;
      }
      .header__boxtop{
-      padding: 20px;
       height: 280px;
      }
      .header__list{

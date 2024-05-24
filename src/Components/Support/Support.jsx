@@ -67,44 +67,48 @@ function Support(){
           type: 'fraction',
         }}
         breakpoints={{
+          1420: {
+            slidesPerView: 3.2,
+            spaceBetween: 20,
+          },
           1320: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
           1220: {
-            slidesPerView: 3.5,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
           1120: {
-            slidesPerView: 3.5,
+            slidesPerView: 2.5,
             spaceBetween: 20,
           },
           1020: {
-            slidesPerView: 3,
+            slidesPerView: 2.5,
             spaceBetween: 30,
           },
           920: {
-            slidesPerView: 2.6,
+            slidesPerView: 2.3,
             spaceBetween: 30,
           },
           820: {
-            slidesPerView: 2.6,
+            slidesPerView: 2,
             spaceBetween: 30,
           },
          720: {
-            slidesPerView: 2,
+            slidesPerView: 1.7,
             spaceBetween: 30,
           },
           620: {
-            slidesPerView: 2,
+            slidesPerView: 1.5,
             spaceBetween: 30,
           },
           520: {
-            slidesPerView: 1.8,
+            slidesPerView: 1.3,
             spaceBetween: 30,
           },
           420: {
-            slidesPerView: 1,
+            slidesPerView: 1.1,
             spaceBetween: 30,
           },
           320: {
