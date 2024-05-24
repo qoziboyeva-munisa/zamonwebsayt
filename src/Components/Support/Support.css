@@ -44,8 +44,8 @@
     box-shadow: 0px 1px 10px 0px;
     background-color: #fff;
     border-radius: 20px;
-    bottom: 20px;
-    right: 0;
+    bottom: -20px;
+    right: -30px;
 }
 .support__title__name{
     font-size: 24px;

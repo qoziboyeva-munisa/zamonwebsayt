@@ -1,7 +1,6 @@
 
 
 .make{
-  position: relative;
 }
 .make__metro{
    width: 100%;
@@ -9,11 +8,15 @@
 }
 .make__container{
     margin-top: 30px; 
-    position: absolute;
-    top: 100px;
-    left: 50px;
+    position: relative;
    
     
+}
+.make__wrapper{
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    left: 0;
 }
 .make__text{
     text-align: center;
@@ -49,11 +52,6 @@
     border: 0;
 }
 .make__list{
-    /* position: absolute;
-    top: 280px;
-    margin: 0 auto;
-    left: 0;
-    right: 0; */
     width: 800px;
     padding-top: 100px;
     text-align: center;
@@ -93,9 +91,11 @@
     .container{
         width: 900px;
     }
-    .make__container{
-        top: 60px;
-        left: 30px;
+    .make__wrapper{
+        position: absolute;
+        bottom: -40px;
+        right: 0;
+        left: 0;
     }
   
   }
@@ -103,10 +103,11 @@
     .container{
         width: 800px;
     }
-    .make__container{
-        max-width: 700px;
-        top: 50px;
-        right: 0px;
+    .make__wrapper{
+        position: absolute;
+        bottom: -120px;
+        right: 0;
+        left: 0;
     }
     .make__list{
         width: 700px;
@@ -124,7 +125,11 @@
     .container{
         width: 700px;
     }
-    .make__container{
+    .make__wrapper{
+        position: absolute;
+        bottom: -130px;
+        right: 0;
+        left: 0;
     }
    .make__text{
     font-size: 20px;
@@ -156,6 +161,12 @@
         width: 250px;
         height: 200px;
     }
+    .make__wrapper{
+        position: absolute;
+        bottom: -330px;
+        right: 0;
+        left: 0;
+    }
   
   }
   @media(max-width:620px){
@@ -171,8 +182,11 @@
         padding-top: 30px;
         
     }
-    .make__container{
-        top: 0;
+    .make__wrapper{
+        position: absolute;
+        bottom: -530px;
+        right: 0;
+        left: 0;
     }
     .make__item{
         width: 400px;
@@ -192,6 +206,12 @@
        
         margin: 0 auto;
        
+    }
+    .make__wrapper{
+        position: absolute;
+        bottom: -510px;
+        right: 0;
+        left: 0;
     }
     .make__item{
         gap: 10px;
@@ -224,7 +244,10 @@
         margin: 0 auto;
        
     }
-    .make__container{
+    .make__wrapper{
+        position: absolute;
+        bottom: -480px;
+        right: 0;
         left: 0;
     }
     .make__item{

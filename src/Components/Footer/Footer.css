@@ -11,11 +11,8 @@
     padding: 50px 0px;
 }
 .footer__link{
-    text-align: center;
     text-decoration: none;
     color: #fff;
-    display: flex;
-    justify-content: center;
 }
 .footer__title{
     color: #fff;

@@ -11,7 +11,7 @@ function Make() {
             <div className="make" id="make">
             <img className="make__metro" src={metro} alt="" />
                 <div className="container make__container">
-                  
+                     <div className="make__wrapper">
                     <div className="make__box">
                         <p className="make__text">{t("make.book")}</p>
                         <h1 className="make__title__name">{t("make.your")}</h1>
@@ -41,6 +41,7 @@ function Make() {
                             <a href="#" className="make__link">+998 99 299 99 96</a>
                         </li>
                     </ul>
+                    </div>
                 </div>
             </div>
         

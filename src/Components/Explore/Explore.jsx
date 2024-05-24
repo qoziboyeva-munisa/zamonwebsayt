@@ -18,8 +18,7 @@ function Explore(){
             <div className="container explore__container">
                <hr />
                <h1 className="explore__title">{t("explore.explore")}</h1>
-               <p className="explore__text">Find the best deals on railway and airplane tickets <br /> in each city,
-carefully selected for you.</p>
+               <p className="explore__text">{t("explore.find")}</p>
 
           <div className="explore__boxone">
                  <img className="explore__img" src={poezd} alt="" />
@@ -103,7 +102,7 @@ carefully selected for you.</p>
                          <p className="explore__ending__text">275.400 km2</p>
                          <p className="explore__ending__text">$946.000</p>
                     </div>
-                    <a href="#" className="explore__link">{t("explore.need")}</a>
+                    <a href="#make" className="explore__link">{t("explore.need")}</a>
                  </div>
           </div>
 
@@ -127,7 +126,7 @@ carefully selected for you.</p>
                          <p className="explore__ending__text">551.500 km2</p>
                          <p className="explore__ending__text">$425.600</p>
                     </div>
-                    <a href="#" className="explore__link">{t("explore.need")} </a>
+                    <a href="#make" className="explore__link">{t("explore.need")} </a>
                  </div>
           </div>
           <hr />
@@ -150,7 +149,7 @@ carefully selected for you.</p>
                          <p className="explore__ending__text">551.500 km2</p>
                          <p className="explore__ending__text">$425.600</p>
                     </div>
-                    <a href="#" className="explore__link">{t("explore.need")} </a>
+                    <a href="#make" className="explore__link">{t("explore.need")} </a>
                  </div>
           </div>
             </div>

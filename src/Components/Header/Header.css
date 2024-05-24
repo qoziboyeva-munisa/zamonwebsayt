@@ -14,7 +14,8 @@
     justify-content: center;
     align-items: center;
   }
-  
+  .header{
+  }
   .swiper-slide img {
     display: block;
     width: 100%;
@@ -22,15 +23,23 @@
     object-fit: cover;
   }
   .header__container{
+    position: relative;
     height: 400px;
+     
+     text-align: center;
+    
+
      
   }
   .header__box{
     position: absolute;
+    left: 0;
     right: 0;
-    bottom: 60px;
-    right: 100px;
+    top: -420px;
+    right: 0;
+    
     z-index: 1;
+    margin: 0 auto;
   }
   .header__text{
     color: #fff;
@@ -62,11 +71,13 @@
 }
 .header__boxtop{
     padding-bottom: 150px;
+    margin: 0 auto;
 }
   .header__list{
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 800px;
+    margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 50px;
@@ -112,8 +123,8 @@
     .header__box{
       position: absolute;
       right: 0;
+      left: 0;
       bottom: 50px;
-      right: 150px;
       z-index: 1;
     }
 
@@ -124,7 +135,8 @@
         width: 800px;
     }
      .header__box{
-      right: 100px;
+      right: 0;
+      left: 0;
      }
   }
   @media(max-width:820px){
@@ -132,7 +144,8 @@
         width: 700px;
     }
      .header__box{
-      right: 20px;
+      right: 0;
+      left: 0;
      }
      .header__list{
       width: 700px;
@@ -143,7 +156,8 @@
         width: 600px;
     }
      .header__box{
-      right: 30px;
+      right: 0;
+      left: 0;
      }
      .header__list{
       width: 600px;
@@ -167,7 +181,8 @@
     }
      .header__box{
       bottom: 20px;
-      right: 60px;
+      right: 0;
+      left: 0;
      }
      .header__boxtop{
       padding-bottom: 50px;
@@ -203,8 +218,8 @@
     }
      .header__box{
       height: 300px;
-      bottom: 150px;
-      right: 30px;
+      right: 0;
+      left: 0;
      }
      .header__boxtop{
       padding: 20px;
@@ -234,7 +249,8 @@
      .header__box{
       height: 200px;
       bottom: 280px;
-      right: 40px;
+      right: 0;
+      left: 0;
      }
      .header__text{
       width: 250px;

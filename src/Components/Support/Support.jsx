@@ -67,6 +67,18 @@ function Support(){
           type: 'fraction',
         }}
         breakpoints={{
+          1320: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          1220: {
+            slidesPerView: 3.5,
+            spaceBetween: 20,
+          },
+          1120: {
+            slidesPerView: 3.5,
+            spaceBetween: 20,
+          },
           1020: {
             slidesPerView: 3,
             spaceBetween: 30,
